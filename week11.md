@@ -1,0 +1,14 @@
+Jack Lafond
+Week 11 Reflection
+CS 573
+===
+
+Link to Paper:
+---
+https://onlinelibrary.wiley.com/doi/10.1111/cgf.13436
+
+Reflection:
+---
+In this paper researchers attempt to improve play diagrams which are used in many sports applications to understand the actions of different players and the movement of the ball. For this paper, researvhes focused on improving play visualizations for the spatio0temporal data in baseball. Historically play visualizations use a top down, 2D view that shows player movements and the ball movements throughout a play. However, this can sometimes be ineffecient as players could be cluttered in a small area like in baseball when players are moving to the same base. This makes the visual much harder to comprehend. Along with this, longer plays results in more and longer lines plotting player movements which can also become hard to understand. In this projet the researchers introduce the Baseball Timeline, which attempts to add a better temporal understanding to plays that the typical top down visualizations lacked. They took most of their inspiration from Marey's train station visualization whihc plotted a line chart of trains over time, where x was time, and y represented different stations. In their approach they keep the 2D field to show exact player locations over time, but they also include a line chart where each line represents a players movements over time. The Y axis represents the different bases that a player is appraoching or past. This chart is accompanied by a base ball status chart which is a number line representing time, and different sections are highlighted and color to show where the baseball currently is. By using these multiple plots each with its own purpose they are able to utilize the benfeits of each chart and create a complete picture for a viewer. 
+
+I particularly like that they used consistent colors in each of the three charts to represent each player. For example the top down field chart colors the center field player as green, and in the base ball status chart when the center fielder has the ball in his hands the section is colored in green. The use of the temporal line chart also helps to understand player movements and locations over time which adds lots of value to the visualization. I also like that they used some basic filtering to automate the process of keeping the charts clean and only showing relevant information. By this I mean that if every player was plotted on the line chart then it would become just as cluttered as the 2D view. However, they only plot player movements for players who were close to a base within a play. This means that for some plays where the outfielders only received and threw the ball back into the infield, they base proximities are not charted, however for other plays like if a catcher runs to third base to catch a ball, this is shown.
